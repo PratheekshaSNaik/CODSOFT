@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background: #0a2540;
+  color: #fff;
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+nav a {
+  color: #fff;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Hero */
+.hero {
+  height: 45vh;
+  background: linear-gradient(to right, #0a2540, #1d4ed8);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 36px;
+}
+
+.hero p {
+  margin: 10px 0;
+}
+
+.btn {
+  background: #fff;
+  color: #1d4ed8;
+  padding: 10px 25px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background: #e0e7ff;
+}
+
+/* Sections */
+section {
+  padding: 60px 40px;
+  text-align: center;
+}
+
+.about {
+  background: #f4f4f4;
+}
+
+/* Features */
+.features {
+  background: #ffffff;
+}
+
+.feature-box {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.feature {
+  background: #eef2ff;
+  padding: 25px;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.feature:hover {
+  transform: translateY(-5px);
+}
+
+.feature h3 {
+  margin-bottom: 10px;
+  color: #1d4ed8;
+}
+
+/* Connect */
+.join {
+  background: #eef2ff;
+}
+
+.join-box {
+  margin-top: 20px;
+}
+
+.join-box input {
+  padding: 10px;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.join-box button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  border: none;
+  background: #1d4ed8;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.join-box button:hover {
+  background: #0a2540;
+}
+
+#message {
+  margin-top: 15px;
+  color: green;
+}
+
+/* Contact */
+.contact a {
+  color: #1d4ed8;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  background: #0a2540;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+}
